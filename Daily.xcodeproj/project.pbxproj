@@ -34,6 +34,7 @@
 		F6A802B72B02A785003EC2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A802B62B02A785003EC2B5 /* Assets.xcassets */; };
 		F6A802BA2B02A785003EC2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A802B82B02A785003EC2B5 /* LaunchScreen.storyboard */; };
 		F6A802C32B02AD88003EC2B5 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A802C22B02AD88003EC2B5 /* Reminder.swift */; };
+		F6C79B682B29C06400E4DC51 /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C79B672B29C06400E4DC51 /* EKReminder+Reminder.swift */; };
 		F6C997B02B063DF700F0F70B /* UIColor+Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C997AF2B063DF700F0F70B /* UIColor+Daily.swift */; };
 		F6EE526F2B02C185003C889A /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE526E2B02C185003C889A /* Date+Today.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		F6A802B92B02A785003EC2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6A802BB2B02A785003EC2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6A802C22B02AD88003EC2B5 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		F6C79B672B29C06400E4DC51 /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 		F6C997AF2B063DF700F0F70B /* UIColor+Daily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Daily.swift"; sourceTree = "<group>"; };
 		F6EE526E2B02C185003C889A /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +166,7 @@
 				F600D3352B1B84FB0096AA05 /* ReminderStore.swift */,
 				F600D3312B1B7C5E0096AA05 /* EKEventStore+AsyncFetch.swift */,
 				F600D3332B1B7FDF0096AA05 /* Reminder+EKReminder.swift */,
+				F6C79B672B29C06400E4DC51 /* EKReminder+Reminder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				F63375732B06231D00D1EB65 /* ReminderListViewController+DataSource.swift in Sources */,
 				F600D3322B1B7C5E0096AA05 /* EKEventStore+AsyncFetch.swift in Sources */,
 				F6C997B02B063DF700F0F70B /* UIColor+Daily.swift in Sources */,
+				F6C79B682B29C06400E4DC51 /* EKReminder+Reminder.swift in Sources */,
 				F62B2A5C2B065D5500FC4020 /* ReminderViewController.swift in Sources */,
 				F6A802AD2B02A781003EC2B5 /* SceneDelegate.swift in Sources */,
 				F600D3362B1B84FB0096AA05 /* ReminderStore.swift in Sources */,
